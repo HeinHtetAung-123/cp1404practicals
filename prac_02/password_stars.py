@@ -1,4 +1,3 @@
-
 MINIMUM_LENGTH = 18
 def main():
     """Printing the  asterisks as long as the word"""

@@ -7,6 +7,7 @@ CODE_TO_NAME = {"QLD": "Queensland", "NSW": "New South Wales", "NT": "Northern T
                 "ACT": "Australian Capital Territory", "VIC": "Victoria", "TAS": "Tasmania", "SA": "South Australia"}
 print(CODE_TO_NAME)
 # TODO: Reformat this file so the dictionary code follows PEP 8 convention
+
 for states,city in CODE_TO_NAME.items():
     print(f"{states:<3} is {city}.")
 state_code = input("Enter short state: ").upper()

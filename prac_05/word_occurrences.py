@@ -1,10 +1,10 @@
 word_to_count = {}
 word_count = 0
 word_length = 0
-text  = sorted(input("What is the text:").split())
-print(text)
-for word in text:
-    word_count = text.count(word)
+string_input  = sorted(input("What is the text:").split())
+print(string_input)
+for word in string_input:
+    word_count = string_input.count(word)
     word_to_count[word] = word_count
 print(word_to_count)
 for word in word_to_count:

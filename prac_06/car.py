@@ -13,7 +13,7 @@ class Car:
         self.name = name
 
     def __str__(self):
-        """Calling this method to print the result"""
+        """Calling this method to print the result."""
         return f"Car={self.name}, fuel={self.fuel}, odometer={self._odometer}"
 
     def add_fuel(self, amount):

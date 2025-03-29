@@ -1,5 +1,6 @@
 CURRENT_YEAR = 2024
 VINTAGE_YEAR = 50
+
 class Guitar:
     def __init__(self,name="", year=0,cost=0.0):
         """Initialize the constructor with the respective names, years, and costs of guitars."""
